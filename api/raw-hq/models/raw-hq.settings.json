@@ -32,6 +32,10 @@
     "key_words": {
       "via": "raw_hqs",
       "collection": "key-word"
+    },
+    "tb": {
+      "via": "raw_hqs",
+      "model": "tb"
     }
   }
 }

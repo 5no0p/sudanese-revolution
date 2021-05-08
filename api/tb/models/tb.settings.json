@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tbs",
+  "info": {
+    "name": "tb"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "raw_hqs": {
+      "collection": "raw-hq",
+      "via": "tb"
+    }
+  }
+}
