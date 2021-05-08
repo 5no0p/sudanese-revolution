@@ -19,18 +19,6 @@
     "date": {
       "type": "date"
     },
-    "media": {
-      "collection": "file",
-      "via": "related",
-      "allowedTypes": [
-        "files",
-        "images",
-        "videos"
-      ],
-      "plugin": "upload",
-      "required": false,
-      "pluginOptions": {}
-    },
     "duration": {
       "type": "decimal"
     },

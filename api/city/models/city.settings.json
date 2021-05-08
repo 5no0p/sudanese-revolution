@@ -16,8 +16,8 @@
       "type": "string"
     },
     "raw_hqs": {
-      "collection": "raw-hq",
-      "via": "city"
+      "via": "city",
+      "collection": "raw-hq"
     }
   }
 }

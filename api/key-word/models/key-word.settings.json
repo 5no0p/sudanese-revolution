@@ -15,8 +15,8 @@
       "type": "string"
     },
     "raw_hqs": {
-      "collection": "raw-hq",
       "via": "key_words",
+      "collection": "raw-hq",
       "dominant": true
     }
   }
