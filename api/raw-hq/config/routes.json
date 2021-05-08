@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/raw-hqs",
+      "handler": "raw-hq.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/raw-hqs/count",
+      "handler": "raw-hq.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/raw-hqs/:id",
+      "handler": "raw-hq.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/raw-hqs",
+      "handler": "raw-hq.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/raw-hqs/:id",
+      "handler": "raw-hq.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/raw-hqs/:id",
+      "handler": "raw-hq.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

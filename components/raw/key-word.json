@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_raw_key_words",
+  "info": {
+    "name": "key_word",
+    "icon": "align-center"
+  },
+  "options": {},
+  "attributes": {
+    "key_words": {
+      "type": "enumeration",
+      "enum": [
+        "acclaim",
+        "procession",
+        "montage",
+        "chiled"
+      ]
+    }
+  }
+}

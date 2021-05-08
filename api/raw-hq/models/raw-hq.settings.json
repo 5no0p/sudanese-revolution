@@ -1,0 +1,49 @@
+{
+  "kind": "collectionType",
+  "collectionName": "raw_hqs",
+  "info": {
+    "name": "Raw HQ",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "date": {
+      "type": "date"
+    },
+    "media": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "files",
+        "images",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "duration": {
+      "type": "decimal"
+    },
+    "link": {
+      "type": "string"
+    },
+    "city": {
+      "via": "raw_hqs",
+      "model": "city"
+    },
+    "key_words": {
+      "via": "raw_hqs",
+      "collection": "key-word"
+    }
+  }
+}
